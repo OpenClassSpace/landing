@@ -17,4 +17,4 @@ Run the node server by calling
 ```
 
 ## Questions?
-Contact us by going to our page at our website [openclassspace.github.io](openclassspace.github.io).
+Contact us by going to our page at our website [openclassspace.github.io](http://openclassspace.github.io).
