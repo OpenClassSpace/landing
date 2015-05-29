@@ -1,2 +1,6 @@
 # Ignore node packages.
 node_modules
+
+# Ignore images and videos as they will be hosted on CDN
+public/images
+public/videos
