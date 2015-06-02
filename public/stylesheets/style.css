@@ -21,7 +21,7 @@ article {
 
 /** Header */
 .banner {
-  background-image: url("/images/earth-space.jpg");
+  background-image: url("http://res.cloudinary.com/gavinching/image/upload/f_auto,fl_progressive,q_80/v1433282979/earth-space_nwulw5.jpg");
   background-size: cover
   background: black none no-repeat center center;
 }
