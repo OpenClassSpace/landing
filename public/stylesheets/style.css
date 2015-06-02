@@ -10,13 +10,14 @@ main {
   flex: 1 0 auto;
 }
 
-/** Section Helpers */
-.black-bg {
-  background-color: rgba(0,0,0, 1);
+/** Header and Sections */
+.main {
+  padding: 225px 0 225px 0;
 }
-.section-min {
-  min-height: 500px;
+article {
+  padding: 50px 0 50px 0;
 }
+
 
 /** Header */
 .banner {
@@ -24,21 +25,35 @@ main {
   background-size: cover
   background: black none no-repeat center center;
 }
-.banner .main {
-  padding: 225px 0 225px 0;
-}
-.banner article {
-  padding: 50px 0 50px 0;
-}
-
 
 .white-bg {
   background-color: rgba(255,255,255,0.3);
 }
+
+
 /** Sections */
+.black-bg {
+  background-color: rgba(0,0,0, 1);
+}
+.section-min {
+  min-height: 500px;
+}
+
 .section-min .row {
   padding-top: 25px;
 }
+
+.sect-with-video {
+  position: relative;
+  height: 500px;
+}
+
+.sect-with-video-big {
+  position: relative;
+  height: 700px;
+}
+
+
 /** Section 1 */
 .bg-sect1 {
   background: rgb(12,42,88); /* Old browsers */
@@ -52,13 +67,13 @@ main {
 }
 
 .sect1-video {
-  left: 0px;
-  top: -100px;
-  position: fixed;
-  z-index: -1000;
+  top: -250px;
+  position: absolute;
+  z-index: -10;
   width: auto;
   height: auto;
 }
+
 /** Section 2 */
 .bg-sect2 {
   background: rgb(10,37,78); /* Old browsers */
@@ -83,6 +98,19 @@ main {
   background: linear-gradient(to bottom,  rgba(5,17,36,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051124', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
+}
+
+/** Section 5 **/
+.sect5 .section-min {
+  padding: 200px 0 100px 0;
+
+}
+
+.sect5-video {
+  position: absolute;
+  z-index: -10;
+  width: auto;
+  height: auto;
 }
 
 /** Typography */
