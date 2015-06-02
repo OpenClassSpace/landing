@@ -45,12 +45,15 @@ article {
 
 .sect-with-video {
   position: relative;
-  height: 500px;
+  min-height: 500px;
+  overflow: hidden;
+
 }
 
 .sect-with-video-big {
   position: relative;
   height: 700px;
+  overflow: hidden;
 }
 
 
@@ -69,9 +72,9 @@ article {
 .sect1-video {
   top: -250px;
   position: absolute;
-  z-index: -10;
-  width: auto;
-  height: auto;
+  z-index: -1000;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /** Section 2 */
@@ -108,9 +111,22 @@ article {
 
 .sect5-video {
   position: absolute;
-  z-index: -10;
-  width: auto;
-  height: auto;
+  z-index: -1000;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.sect5 .text {
+  padding: 0;
+}
+
+.sect5 h1 {
+  margin: 0 0 1.68rem 0;
+}
+
+/** Footer */
+.page-footer {
+  margin-top: 0px !important;
 }
 
 /** Typography */
