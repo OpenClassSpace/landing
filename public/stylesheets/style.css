@@ -129,6 +129,10 @@ article {
   margin-top: 0px !important;
 }
 
+footer .connect a {
+  margin: 5px 5px 5px 5px;
+}
+
 /** Typography */
 .weight-200 {
   font-weight: 200;
