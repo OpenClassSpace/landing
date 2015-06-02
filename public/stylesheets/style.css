@@ -35,7 +35,10 @@ main {
 .white-bg {
   background-color: rgba(255,255,255,0.3);
 }
-
+/** Sections */
+.section-min .row {
+  padding-top: 25px;
+}
 /** Section 1 */
 .bg-sect1 {
   background: rgb(12,42,88); /* Old browsers */
@@ -46,9 +49,16 @@ main {
   background: -ms-linear-gradient(top,  rgba(12,42,88,1) 0%,rgba(10,37,78,1) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(12,42,88,1) 0%,rgba(10,37,78,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c2a58', endColorstr='#0a254e',GradientType=0 ); /* IE6-9 */
-
 }
 
+.sect1-video {
+  left: 0px;
+  top: -100px;
+  position: fixed;
+  z-index: -1000;
+  width: auto;
+  height: auto;
+}
 /** Section 2 */
 .bg-sect2 {
   background: rgb(10,37,78); /* Old browsers */
