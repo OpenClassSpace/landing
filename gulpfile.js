@@ -27,5 +27,5 @@ gulp.task('minify', ['minify-css']);
 gulp.task('minify-css', function(){
   return gulp.src('public/stylesheets/*.css')
    .pipe(minifyCss())
-   .pipe(gulp.dest('dist'));
+   .pipe(gulp.dest('dist/stylesheets'));
 });
