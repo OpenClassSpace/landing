@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-minify-css": "^1.1.5"
+    "gulp-ejs": "^1.1.0",
+    "gulp-minify-css": "^1.1.5",
+    "gulp-minify-html": "^1.0.3"
   }
 }
