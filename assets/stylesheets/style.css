@@ -17,7 +17,7 @@ main {
 /** Header and Sections */
 
 .main {
-  padding: 225px 0 225px 0;
+  padding: 125px 0 225px 0;
 }
 article {
   padding: 50px 0 50px 0;
@@ -34,6 +34,19 @@ article {
 .white-bg {
   background-color: rgba(255,255,255,0.3);
 }
+
+/** Summary */
+.summary-wrapper {
+  background: rgb(12,42,88); /* Old browsers */
+  
+  display: -webkit-flex;
+  display: flex;
+}
+.summary {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
 
 
 /** Sections */
