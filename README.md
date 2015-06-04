@@ -16,5 +16,10 @@ Run the node server by calling
   npm start
 ```
 
+## Gulp
+We use gulp to automate minifying and providing compiled views for our Github Pages repo.
+Do checkout `gulpfile.js` for a rundown of what tasks are provided and what you can do. It
+should be fairly well documented (the dream), so you should have no problemo :).
+
 ## Questions?
-Contact us by going to our page at our website [openclassspace.github.io](http://openclassspace.github.io).
+Contact us by going to our page at our website [openclass.space](https://openclass.space).
