@@ -38,7 +38,7 @@ article {
 /** Summary */
 .summary-wrapper {
   background: rgb(12,42,88); /* Old browsers */
-  
+
   display: -webkit-flex;
   display: flex;
 }
@@ -107,6 +107,10 @@ article {
   background: linear-gradient(to bottom,  rgba(10,37,78,1) 0%,rgba(5,17,36,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a254e', endColorstr='#051124',GradientType=0 ); /* IE6-9 */
 
+}
+
+.card-panel {
+  min-height: 330px;
 }
 
 /** Section 3 */
