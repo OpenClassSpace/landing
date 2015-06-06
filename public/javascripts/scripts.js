@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".modal-trigger").leanModal({opacity:.5})});
+$(document).ready(function(){$(".modal-trigger").leanModal({opacity:.5}),$("form").submit(function(o){var e=$("#email").val();console.log(e),$.ajax({type:"POST",url:"http://api-openclassspace.rhcloud.com/subscribers",data:{email:e},dataType:"json",success:function(o){console.log("here?"),console.log(o)},error:function(o){console.log("were here"),console.log(o)}}),o.preventDefault()})});
