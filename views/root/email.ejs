@@ -1,16 +1,23 @@
 <div class="email section">
   <form class="row">
-    <div class="col s8 m10">
+    <div class="col s12 m10">
       <div class="input-field">
         <i class="mdi-communication-email prefix"></i>
         <input id="email" type="email" class="validate">
-        <label for="email">Email me!</label>
+        <label for="email">Email</label>
       </div>
     </div>
-    <div class="col s4 m2">
-      <button class="btn teal waves-effect waves-light" type="submit">
-        SEND
-      </button>
+    <div class="col s12 m2">
+      <div class="hide-on-small-only">
+        <button class="btn teal waves-effect waves-light" type="submit">
+          SEND
+        </button>
+      </div>
+      <div class="hide-on-med-and-up center-align">
+        <button class="btn-floating teal waves-effect waves-light" type="submit">
+          <i class="mdi-content-send"></i>
+        </button>
+      </div>
     </div>
   </form>
 </div>

@@ -49,7 +49,7 @@ $(document).ready(function(){
 
           // Append a success message!
           var $success = $('<p>').addClass('flow-text')
-            .text("Thank you and talk to you soon :>!");
+            .text("Thank you!");
           $('.email').append($success);
         },
         error: function(err){

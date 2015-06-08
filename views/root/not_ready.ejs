@@ -2,13 +2,19 @@
 <div id="notReady" class="modal">
  <div class="modal-content">
    <div class="container">
-     <h4><strong>Hello! Virtual classes will soon be a reality!</strong></h4>
-     <p class="flow-text">
-       You caught us before Open Space Class is ready. We are working hard to get
-       virtual classes up and running. If you would like us to send you a reminder
-       or if you want to be part of the process of starting virtual classes, put
-       your email in below:
-     </p>
+     <div class="hide-on-small-only">
+       <h4><strong>Hello! Virtual classes will soon be a reality!</strong></h4>
+       <h6 class="flow-text">
+         You caught us before Open Space Class is ready. Want a reminder or join us in testing?
+         Put your email below:
+       </h6>
+     </div>
+     <div class="hide-on-med-and-up">
+       <h5><strong>We will be up soon!</strong><h5>
+         <h6 class="flow-text">
+           Want a reminder or join us in testing? Put your email below:
+         </h6>
+     </div>
      <% include email %>
    </div>
  </div>
